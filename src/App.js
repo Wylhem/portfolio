@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "./components/Navbar/Navbar";
 import {Switch, Route, Redirect, BrowserRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import Portfolio from  './pages/Portfolio'
