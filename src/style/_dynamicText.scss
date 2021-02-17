@@ -10,17 +10,12 @@
   .my{
     color:$light-blue;
   }
-  #text-target{
+  .Typewriter{
     display: flex;
-
     text-align: left;
     perspective: 200px;
     animation: color 30s alternate infinite;
-    transform: translateX(px-to-rem(26px));
 
-    .letter{
-      transform: translateZ(px-to-rem(200px));
-    }
     @keyframes color {
       0% {
         color: $color-1;
@@ -30,16 +25,6 @@
       }
       100% {
         color: $color-2;
-      }
-    }
-    @keyframes anim {
-      25%{
-        transform: translateZ(0px);
-        opacity: 1;
-      }
-      32%{
-        opacity: 0;
-        transform: translateX(-280px) translateX(200px);
       }
     }
   }

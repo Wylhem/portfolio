@@ -1,9 +1,10 @@
 import React from 'react';
+import ButtonScroll from "../components/buttonsScroll/ButtonScroll";
 
 const Education = () => {
     return (
-        <div>
-            
+        <div className="container">
+            <ButtonScroll left={"/"} right={"/portfolio"}/>
         </div>
     );
 };

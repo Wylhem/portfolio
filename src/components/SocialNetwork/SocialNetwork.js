@@ -3,15 +3,22 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
+
 library.add(
     faGithub,
     faLinkedin
 )
 
 const SocialNetwork = () => {
+
+    window.addEventListener('load',()=>{
+         let navLinks = document.querySelectorAll('.content a');
+         navLinks.forEach(link =>{
+            link.classList.add('loading');
+         })
+    })
+
     const anim =()=>{
-
-
         let navLinks = document.querySelectorAll('.socialNetwork a');
         navLinks.forEach(link =>{
            link.addEventListener('mouseover' , (e)=>{

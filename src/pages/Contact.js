@@ -1,9 +1,11 @@
 import React from 'react';
+import ButtonScroll from "../components/buttonsScroll/ButtonScroll";
 
 const Contact = () => {
     return (
-        <div>
-            
+        <div className="container">
+
+            <ButtonScroll left={'/portfolio'}  />
         </div>
     );
 };

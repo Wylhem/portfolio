@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from "../components/Navbar/Navbar";
 import SocialNetwork from "../components/SocialNetwork/SocialNetwork";
-import DynamicText from "../components/DynamicText/dynamicText";
+import DynamicText from "../components/DynamicText/DynamicText";
+import ButtonScroll from "../components/buttonsScroll/ButtonScroll";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                         <h2><DynamicText/></h2>
                     </div>
                 </div>
+                <ButtonScroll right={"/education"} />
             </div>
         </div>
     );

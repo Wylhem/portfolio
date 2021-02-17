@@ -36,6 +36,28 @@
     text-align: center;
     height: 95%;
     width: 100%;
+
+    .home-content{
+      position: relative;
+      &:before{
+        content: '';
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border :1px solid $blue-stone;
+        position: absolute;
+        left: -50px;
+        top: -20px;
+        animation: homeAnim 20s infinite alternate;
+        @media screen and (max-width: 650px){
+          top: -5px;
+          left: -25px;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+
     h1,h2{
       font-size: px-to-rem(52px);
       letter-spacing: px-to-rem(2px);
