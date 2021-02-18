@@ -9,7 +9,7 @@ const Education = () => {
             <Navbar />
             <div className="educ-containt">
                 <div className="grid-left">
-                    <h1>formation</h1>
+                    <h1>Formation</h1>
                     <ul>
                         <li><p>2019-2021 : Université Paris Saclay  : DUT informatique</p></li>
                         <li><p>2016-2019 : Lycée René Cassin</p> </li>
