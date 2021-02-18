@@ -39,6 +39,17 @@
 
     .home-content{
       position: relative;
+
+    }
+
+    h1,h2{
+      font-size: px-to-rem(52px);
+      letter-spacing: px-to-rem(2px);
+      @media screen and (max-width:650px){
+        font-size: px-to-rem(30px);
+      }
+    }
+    h1{
       &:before{
         content: '';
         width: 100px;
@@ -48,6 +59,7 @@
         position: absolute;
         left: -50px;
         top: -20px;
+        z-index: -1;
         animation: homeAnim 20s infinite alternate;
         @media screen and (max-width: 650px){
           top: -5px;
@@ -55,14 +67,6 @@
           width: 25px;
           height: 25px;
         }
-      }
-    }
-
-    h1,h2{
-      font-size: px-to-rem(52px);
-      letter-spacing: px-to-rem(2px);
-      @media screen and (max-width:650px){
-        font-size: px-to-rem(20px);
       }
     }
 
