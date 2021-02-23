@@ -6,7 +6,8 @@ import Navbar from "../components/Navbar/Navbar";
 const Portfolio = () => {
     return (
         <div className="container">
-            <Navbar name="nav" />
+            <Navbar name="navigation" />
+
             <Project number={0}/>
             <ButtonScroll left={"/education"} right={'/contact'}/>
 

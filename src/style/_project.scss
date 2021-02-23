@@ -11,12 +11,23 @@
     grid-template-rows: 1fr;
     margin: 10rem 1rem;
   }
+  @media (orientation: landscape) and (max-width: 600px){
+    width: 80%;
+    margin: 3rem 8rem;
+  }
+  @media (orientation: landscape) and (max-width: 580px) {
+    width: 50%;
+    margin: 1rem 11rem;
+  }
   h1{
     animation: transformTitle 1.5s ease forwards;
     transform: scaleY(0);
     transform-origin: 150%;
+    font-size: 22px;
+    color: $light-blue;
     @media screen and (min-width: 600px) {
       transform: scaleX(0);
+      font-size: px-to-rem(32px);
     }
   }
   @keyframes transformTitle {
@@ -110,9 +121,7 @@
       p{
         width: 200px;
         font-size: px-to-rem(14px);
-        @media screen and(min-width: 600px) {
 
-        }
       }
     }
 
@@ -134,9 +143,18 @@
 
 .button-container{
   margin-top: px-to-rem(15px);
+  @media (orientation: landscape) and (max-width: 580px) {
+    margin: unset;
+    span{
+      font-size: px-to-rem(12px);
+      padding: 0.4rem  !important;
+    }
+  }
+
   span{
     background:$blue-stone;
-    padding: px-to-rem(15px);
+    padding: px-to-rem(10px);
+    font-size:px-to-rem(12px) ;
     border-radius: px-to-rem(999px);
     animation: 0.4s ease-out;
     &:hover{
