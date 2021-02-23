@@ -25,7 +25,7 @@ const Project = (props) => {
                     <img src={project.src} alt={project.title} />
                 </div>
                  <div className="button-container">
-                     <a href="#" target="_blank" rel="noopener noreferrer" className="hover">
+                     <a href="https://wylhem-portf.netlify.app/portfolio" target="_blank" rel="noopener noreferrer" className="hover">
                          <span className="button">Voir le site </span>
                      </a>
                  </div>
