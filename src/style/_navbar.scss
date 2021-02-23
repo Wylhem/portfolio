@@ -8,10 +8,8 @@
   z-index: 10;
   transform: translateY(-100%);
   animation: navProject 1s ease forwards;
-  @media screen and (max-width: 430px )  {
-    font-size: px-to-rem(12px);
-  }
-  @media (orientation: landscape) and (max-width: 600px)  {
+
+  @media screen and (max-width: 900px)  {
     font-size: px-to-rem(12px);
   }
 
@@ -28,17 +26,14 @@
     left: px-to-rem(-160px);
     animation: navAnim 20s infinite alternate;
 
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 900px) {
       height: px-to-rem(200px);
       width: px-to-rem(200px);
       top:px-to-rem(-100px) ;
       left: px-to-rem(-101px);
 
     }
-    @media (orientation: landscape) and (max-width: 600px)  {
 
-      left: px-to-rem(-203px);
-    }
   }
 
   .nav-active {
@@ -70,20 +65,13 @@ ul:hover li:hover {
   transform: translateY(-100%);
   animation: navProject 1s ease forwards;
   position: absolute;
-  @media screen and (max-width: 650px)  {
+  @media screen and (max-width: 900px)  {
 
     top: px-to-rem(16px);
     left: px-to-rem(16px);
     font-size: px-to-rem(12px);
     line-height: px-to-rem(28px);
   }
-  @media (orientation: landscape) and (max-width: 600px)  {
-    font-size: px-to-rem(12px);
-
-  }
-
-
-
   &:before {
     content: '';
     position: absolute;
@@ -96,19 +84,14 @@ ul:hover li:hover {
     top: -200px;
     animation: navAnim 20s infinite alternate;
 
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 900px) {
       height: px-to-rem(200px);
       width: px-to-rem(200px);
-      top:px-to-rem(-96px) ;
+      top:px-to-rem(-100px) ;
       left: px-to-rem(-101px);
-    }
-    @media (orientation: landscape) and (max-width: 600px)  {
-      left: -113px;
-      top: -12.125rem;
-      height: 16.75rem;
-      width: 16.75rem;
 
     }
+
 
   }
 
