@@ -1,46 +1,111 @@
 
-.navigation{
+.navigation {
   position: absolute;
   top: px-to-rem(16px);
   left: px-to-rem(16px);
   font-size: px-to-rem(18px);
   line-height: px-to-rem(28px);
+  z-index: 10;
+  @media screen and (max-width: 430px) {
+    font-size: px-to-rem(12px);
+  }
 
-  &:before{
+  &::before {
     content: '';
     position: absolute;
     height: px-to-rem(300px);
     width: px-to-rem(300px);
-    border-radius:50%;
+    border-radius: 50%;
     background-color: $blue-stone;
     z-index: -1;
     top: px-to-rem(-150px);
     left: px-to-rem(-160px);
     animation: navAnim 20s infinite alternate;
     @keyframes navAnim {
-      50%{
+      50% {
         transform: scale(1.2);
       }
-      100%{
+      100% {
         transform: scale(1);
       }
     }
-    @media screen and (max-width:430px ) {
-      height: px-to-rem(200px);
-      width: px-to-rem(200px);
-      top: -80px;
-      left: -90px;
+    @media screen and (max-width: 430px) {
+      height: px-to-rem(150px);
+      width: px-to-rem(150px);
+      top:px-to-rem(-96px) ;
+      left: px-to-rem(-101px);
+
     }
   }
+
   .nav-active {
     color: $white;
   }
+
+
+}
+
+.nav, .navigation {
   ul:hover li:not(:hover) {
     opacity: .5;
   }
-  ul:hover li:hover {
-    color: $white;
-  }
 }
 
+ul:hover li:hover {
+  color: $white;
+}
+
+.nav {
+  top: 5px;
+  left: 60%;
+  font-size: 1.1rem;
+  line-height: 20px;
+  transform: translateY(-100%);
+  animation: navProject 1s ease forwards;
+  position: absolute;
+  @media screen and (max-width: 650px) {
+    font-size: 13px;
+    top: px-to-rem(16px);
+    left: px-to-rem(16px);
+  }
+
+  @keyframes navProject {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    height: px-to-rem(300px);
+    width: px-to-rem(300px);
+    border-radius: 50%;
+    background-color: $blue-stone;
+    z-index: -1;
+    left: -120px;
+    top: -200px;
+    animation: navAnim 20s infinite alternate;
+    @keyframes navAnim {
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @media screen and (max-width: 430px) {
+      height: px-to-rem(200px);
+      width: px-to-rem(200px);
+      top:px-to-rem(-96px) ;
+      left: px-to-rem(-101px);
+    }
+  }
+
+
+  .nav-projects {
+    transform: translateX(67px);
+    padding: 0 20px;
+  }
+}
 

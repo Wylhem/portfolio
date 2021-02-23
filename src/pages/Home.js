@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <div className="container">
-                <Navbar />
+                <Navbar name="navigation" />
                 <SocialNetwork/>
                 <div className="home-main">
                     <div className="home-content">

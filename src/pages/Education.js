@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 const Education = () => {
     return (
         <div className="container">
-            <Navbar />
+            <Navbar name="nav" />
             <div className="educ-containt">
                 <div className="grid-left">
                     <h1>Formation</h1>

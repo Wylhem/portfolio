@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0d77ce63-bec0-46fe-aaf0-e4441b530132" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_buttonScroll.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_buttonScroll.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wylhe\Documents\GitHub\portfolio\public" />
+      <recent name="C:\Users\wylhe\Documents\GitHub\portfolio\src" />
+      <recent name="C:\Users\wylhe\Documents\GitHub\portfolio\src\data" />
+      <recent name="C:\Users\wylhe\Documents\GitHub\portfolio\src\images" />
       <recent name="C:\Users\wylhe\Documents\GitHub\portfolio\src\style" />
     </key>
   </component>
@@ -86,7 +95,12 @@
       <workItem from="1613480765493" duration="27147000" />
       <workItem from="1613577826607" duration="11636000" />
       <workItem from="1613606203041" duration="694000" />
-      <workItem from="1613653942315" duration="7209000" />
+      <workItem from="1613653942315" duration="8160000" />
+      <workItem from="1613688886296" duration="4215000" />
+      <workItem from="1613746916631" duration="881000" />
+      <workItem from="1613767120510" duration="6410000" />
+      <workItem from="1613830577871" duration="711000" />
+      <workItem from="1614095009070" duration="12888000" />
     </task>
     <servers />
   </component>

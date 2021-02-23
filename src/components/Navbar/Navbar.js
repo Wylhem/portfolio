@@ -1,12 +1,12 @@
 import React from 'react';
 import  {NavLink} from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
-        <div className="navigation">
+        <div className={props.name}>
             <ul>
                 <NavLink to='/' exat className="hover" activeClassName="nav-active">
-                    <li>Acceuil</li>
+                    <li>Accueil</li>
                 </NavLink>
                 <NavLink to='/education' exact className="hover" activeClassName="nav-active">
                     <li>Formation</li>
