@@ -1,4 +1,7 @@
+
 .container{
+  position: absolute;
+  z-index: 1;
   &:after{
     content: '';
     height: px-to-rem(900px);
