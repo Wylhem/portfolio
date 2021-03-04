@@ -6,8 +6,9 @@ export const projectsData = [
         title : "Potato-Store",
         date : "Janvier 2021",
         languages : ["PHP" , "Javascript" , "SASS"],
-        info:"Project Universitaire fait en groupe de deux personnes." +
-            " C'est un site de commande de fruit et légumes. ",
+        info:"Projet Universitaire fait en groupe." +
+            " C'est un site de commande de fruit et légumes." +
+            "(pas encore en ligne) ",
         src :"images/image1.png",
     },
 ]
